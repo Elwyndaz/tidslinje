@@ -37,7 +37,15 @@
     "links": [
       {
         "type": "wiki",
-        "url": "http://minnen.sundsvall.se/handelser/strejkerkonflikter/sundsvallsstrejken.4.461a4d4d109f4468cd980008973.html"
+        "url": "https://sv.wikipedia.org/wiki/Sundsvallsstrejken"
+      },
+      {
+        "type": "video",
+        "url": "https://www.lo.se/lo-play/sundsvallsstrejken-1879"
+      },
+      {
+        "type": "podcast",
+        "url": "https://poddtoppen.se/podcast/1665577095/vi-bygger-landet/sundsvallsstrejken-den-forsta-stora-striden"
       }
     ]
   },
@@ -58,7 +66,7 @@
     "links": [
       {
         "type": "wiki",
-        "url": "http://sv.wikipedia.org/wiki/Svenska_tr%C3%A4arbetaref%C3%B6rbundet"
+        "url": "https://sv.wikipedia.org/wiki/Svenska_tr%C3%A4arbetaref%C3%B6rbundet"
       }
     ]
   },
@@ -80,7 +88,7 @@
     "links": [
       {
         "type": "wiki",
-        "url": "http://sv.wikipedia.org/wiki/Arbetarr%C3%B6relsen_i_Sverige"
+        "url": "https://sv.wikipedia.org/wiki/Sveriges_socialdemokratiska_arbetareparti"
       }
     ]
   },
@@ -99,6 +107,10 @@
     ],
     "persons": [],
     "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Folkets_hus"
+      },
       {
         "type": "wiki",
         "url": "http://www.fhp.nu/Hem/Om-oss/"
@@ -120,7 +132,12 @@
       "fackförbund"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Landsorganisationen_i_Sverige"
+      }
+    ]
   },
   {
     "id": "1901-forlossning",
@@ -153,7 +170,12 @@
       "bildande"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Svenskt_N%C3%A4ringsliv"
+      }
+    ]
   },
   {
     "id": "1906-december",
@@ -172,7 +194,7 @@
     "links": [
       {
         "type": "wiki",
-        "url": "http://sv.wikipedia.org/wiki/Decemberkompromissen"
+        "url": "https://sv.wikipedia.org/wiki/Decemberkompromissen"
       }
     ]
   },
@@ -192,7 +214,16 @@
     "persons": [
       "Anton Nilsson"
     ],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Amaltheaattentatet"
+      },
+      {
+        "type": "video",
+        "url": "https://www.lo.se/lo-play/amaltheadadet-1908"
+      }
+    ]
   },
   {
     "id": "1909-storstrejk",
@@ -209,7 +240,16 @@
       "lockout"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Storstrejken_i_Sverige_1909"
+      },
+      {
+        "type": "podcast",
+        "url": "https://podcasts.apple.com/se/podcast/storstrejken-del-1-attack-och-motattack/id1665577095?i=1000702145216"
+      }
+    ]
   },
   {
     "id": "1912-abf",
@@ -226,7 +266,12 @@
       "organisation"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Arbetarnas_bildningsf%C3%B6rbund"
+      }
+    ]
   },
   {
     "id": "1914-ww1",
@@ -242,7 +287,12 @@
       "krig"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/F%C3%B6rsta_v%C3%A4rldskriget"
+      }
+    ]
   },
   {
     "id": "1917-ryska-rev",
@@ -303,7 +353,12 @@
       "lag"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/R%C3%B6str%C3%A4tt_i_Sverige"
+      }
+    ]
   },
   {
     "id": "1919-8timmar",
@@ -319,7 +374,12 @@
       "arbetstid"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Arbetstidslagen"
+      }
+    ]
   },
   {
     "id": "1929-arbetsdomstolen",
@@ -338,7 +398,7 @@
     "links": [
       {
         "type": "wiki",
-        "url": "http://sv.wikipedia.org/wiki/Arbetsdomstolen"
+        "url": "https://sv.wikipedia.org/wiki/Arbetsdomstolen"
       }
     ]
   },
@@ -357,7 +417,12 @@
       "kris"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Wall_Street-kraschen_1929"
+      }
+    ]
   },
   {
     "id": "1931-adalen",
@@ -374,7 +439,20 @@
       "demonstration"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/%C3%85dalen_31"
+      },
+      {
+        "type": "video",
+        "url": "https://www.lo.se/lo-play/adalen-1931"
+      },
+      {
+        "type": "podcast",
+        "url": "https://podcasts.apple.com/se/podcast/%C3%A5dalen-31-n%C3%A4r-milit%C3%A4ren-sk%C3%B6t-arbetare/id1665577095?i=1000653647085"
+      }
+    ]
   },
   {
     "id": "1932-sap-makten",
@@ -392,7 +470,12 @@
     "persons": [
       "Per-Albin Hansson"
     ],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Folkhemmet"
+      }
+    ]
   },
   {
     "id": "1938-saltsjobad",
@@ -412,7 +495,15 @@
     "links": [
       {
         "type": "wiki",
-        "url": "http://sv.wikipedia.org/wiki/Saltsj%C3%B6badsavtalet"
+        "url": "https://sv.wikipedia.org/wiki/Saltsj%C3%B6badsavtalet"
+      },
+      {
+        "type": "video",
+        "url": "https://www.lo.se/lo-play/saltsjobaden-1938"
+      },
+      {
+        "type": "podcast",
+        "url": "https://poddtoppen.se/podcast/1665577095/vi-bygger-landet/saltsjobadsavtalet-en-historisk-kompromiss"
       }
     ]
   },
@@ -430,7 +521,12 @@
       "krig"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Andra_v%C3%A4rldskriget"
+      }
+    ]
   },
   {
     "id": "1951-3veckor",
@@ -446,7 +542,12 @@
       "semester"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Semesterlagen"
+      }
+    ]
   },
   {
     "id": "1959-atp",
@@ -463,7 +564,12 @@
       "politisk"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Allm%C3%A4n_till%C3%A4ggspension"
+      }
+    ]
   },
   {
     "id": "1960-kvinnoloner",
@@ -497,7 +603,12 @@
       "välfärd"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/F%C3%B6rskola"
+      }
+    ]
   },
   {
     "id": "1963-4veckor",
@@ -513,7 +624,12 @@
       "semester"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Semesterlagen"
+      }
+    ]
   },
   {
     "id": "1966-offentliga",
@@ -545,7 +661,12 @@
       "utbildning"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Komvux"
+      }
+    ]
   },
   {
     "id": "1969-gruvstrejk",
@@ -582,7 +703,12 @@
       "arbetstid"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Arbetstidslagen"
+      }
+    ]
   },
   {
     "id": "1974-las-fml",
@@ -598,7 +724,12 @@
       "anställningsskydd"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Lagen_om_anst%C3%A4llningsskydd"
+      }
+    ]
   },
   {
     "id": "1976-mbl",
@@ -615,7 +746,12 @@
       "förhandling"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Medbest%C3%A4mmandelagen"
+      }
+    ]
   },
   {
     "id": "1978-5veckor",
@@ -631,7 +767,12 @@
       "semester"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Semesterlagen"
+      }
+    ]
   },
   {
     "id": "1978-timbro",
@@ -647,7 +788,12 @@
       "politisk"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Timbro"
+      }
+    ]
   },
   {
     "id": "1980-storlockout",
@@ -696,7 +842,16 @@
       "lön"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/L%C3%B6ntagarfonder"
+      },
+      {
+        "type": "podcast",
+        "url": "https://podcasts.apple.com/se/podcast/l%C3%B6ntagarfonderna-den-sista-striden/id1665577095?i=1000714749439"
+      }
+    ]
   },
   {
     "id": "1985-kreditreglering",
@@ -713,7 +868,12 @@
       "avreglering"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "podcast",
+        "url": "https://podcasts.apple.com/se/podcast/90-talskrisen-del-1-mot-avgrunden/id1665577095?i=1000745386901"
+      }
+    ]
   },
   {
     "id": "1986-palme",
@@ -730,7 +890,12 @@
     "persons": [
       "Olof Palme"
     ],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Olof_Palme"
+      }
+    ]
   },
   {
     "id": "1989-berlinmuren",
@@ -746,7 +911,12 @@
       "politisk"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Berlinmuren"
+      }
+    ]
   },
   {
     "id": "1991-27dagar",
@@ -756,13 +926,18 @@
     "country": "sverige",
     "size": "small",
     "short": "Semestern utökas temporärt till 27 dagar.",
-    "long": "Semesterlagen ändras och löntagare ges rätt till 27 dagars semester (5 veckor + 2 dagar). Ändringen visade sig vara kortlivad — dagen skulle komma att tas bort bara tre år senare.",
+    "long": "Semesterlagen ändras och löntagare ges rätt till 27 dagars semester (5 veckor + 2 dagar). Ändringen visade sig vara kortlivad — dagarna skulle komma att tas bort bara tre år senare.",
     "tags": [
       "lag",
       "semester"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Semesterlagen"
+      }
+    ]
   },
   {
     "id": "1994-2dagar",
@@ -779,7 +954,16 @@
       "ekonomi"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Semesterlagen"
+      },
+      {
+        "type": "podcast",
+        "url": "https://podcasts.apple.com/se/podcast/90-talskrisen-del-2-det-nya-landet/id1665577095?i=1000745386655"
+      }
+    ]
   },
   {
     "id": "2000-medling",
@@ -796,7 +980,12 @@
       "organisation"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Medlingsinstitutet"
+      }
+    ]
   },
   {
     "id": "2007-lex-laval",
@@ -813,7 +1002,12 @@
       "konflikt"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Lex_Laval"
+      }
+    ]
   },
   {
     "id": "2007-a-kassa",
@@ -830,7 +1024,12 @@
       "politisk"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Arbetsl%C3%B6shetsf%C3%B6rs%C3%A4kring_i_Sverige"
+      }
+    ]
   },
   {
     "id": "2007-ava",
@@ -846,7 +1045,12 @@
       "anställningsskydd"
     ],
     "persons": [],
-    "links": []
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Allm%C3%A4n_visstid"
+      }
+    ]
   },
   {
     "id": "2015-huvudentreprenad",
