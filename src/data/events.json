@@ -1,0 +1,867 @@
+[
+  {
+    "id": "1846-typograferna",
+    "year": 1846,
+    "title": "Sveriges första fackförening bildas",
+    "epoch": "informera-och-agitera",
+    "country": "sverige",
+    "size": "medium",
+    "short": "Typografernas förening i Stockholm grundas — Sveriges äldsta kända fackförening.",
+    "long": "Typografernas förening i Stockholm bildas 1846 och är den äldsta kända fackföreningen i Sverige. Tryckeribranschen var tidig med att organisera sig, bland annat tack vare traditionerna från hantverksskrån. Föreningen lade grunden för den fackliga tradition som snart skulle spridas till hela arbetsmarknaden.",
+    "tags": [
+      "organisation",
+      "bildande"
+    ],
+    "persons": [],
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://www.gsfacket.se/sv/avdelningar/avdelning-9---ostra-svealand/sveriges-aldsta-fackforening/"
+      }
+    ]
+  },
+  {
+    "id": "1879-sundsvall",
+    "year": 1879,
+    "title": "Sundsvallsstrejken",
+    "epoch": "informera-och-agitera",
+    "country": "sverige",
+    "size": "large",
+    "short": "Sågverksarbetare strejkar mot lönesänkningar — en av de första stora svenska arbetskonflikterna.",
+    "long": "Sågverksarbetare i Sundsvallsregionen protesterar mot drastiska lönesänkningar. Strejken sprids snabbt och samlar tusentals arbetare, men krossas av statsmakten med hjälp av militär. Händelsen anses vara startskottet för den organiserade svenska fackföreningsrörelsen och fick stor symbolisk betydelse för kommande generationer.",
+    "tags": [
+      "strejk",
+      "konflikt"
+    ],
+    "persons": [],
+    "links": [
+      {
+        "type": "wiki",
+        "url": "http://minnen.sundsvall.se/handelser/strejkerkonflikter/sundsvallsstrejken.4.461a4d4d109f4468cd980008973.html"
+      }
+    ]
+  },
+  {
+    "id": "1889-traarbetare",
+    "year": 1889,
+    "title": "Svenska träarbetarförbundet bildas",
+    "epoch": "informera-och-agitera",
+    "country": "sverige",
+    "size": "small",
+    "short": "Ett av de tidiga förbunden som banade väg för LO:s bildande nio år senare.",
+    "long": "Svenska träarbetarförbundet är ett av de förbund som bildas under den expansiva organisationsperioden på 1880–90-talen. Förbundets bildande visar på den snabba fackliga organisering som pågick inom industrin och som kulminerade i LO:s grundande 1898.",
+    "tags": [
+      "organisation",
+      "bildande"
+    ],
+    "persons": [],
+    "links": [
+      {
+        "type": "wiki",
+        "url": "http://sv.wikipedia.org/wiki/Svenska_tr%C3%A4arbetaref%C3%B6rbundet"
+      }
+    ]
+  },
+  {
+    "id": "1889-sap",
+    "year": 1889,
+    "title": "SAP bildas",
+    "epoch": "informera-och-agitera",
+    "country": "sverige",
+    "size": "large",
+    "short": "Socialdemokratiska Arbetarepartiet grundas — partiet som formade Sverige under 1900-talet.",
+    "long": "Socialdemokratiska Arbetarepartiet (SAP) grundas vid ett möte i Stockholm. Partiet knöts tätt samman med fackföreningsrörelsen och LO och kom att dominera svensk politik under stora delar av 1900-talet. SAP var den drivande kraften bakom den svenska välfärdsstatens framväxt.",
+    "tags": [
+      "organisation",
+      "bildande",
+      "politisk"
+    ],
+    "persons": [],
+    "links": [
+      {
+        "type": "wiki",
+        "url": "http://sv.wikipedia.org/wiki/Arbetarr%C3%B6relsen_i_Sverige"
+      }
+    ]
+  },
+  {
+    "id": "1890-folkets-hus",
+    "year": 1890,
+    "title": "Första Folkets hus öppnar",
+    "epoch": "informera-och-agitera",
+    "country": "sverige",
+    "size": "small",
+    "short": "Folkets hus i Kristianstad invigs — det första i en rörelse av lokaler för arbetare.",
+    "long": "I Kristianstad öppnar det som räknas som Sveriges första Folkets hus. Folkets hus-rörelsen växte sig stark och gav arbetarna egna möteslokaler, kulturarenor och samlingspunkter runt om i landet.",
+    "tags": [
+      "organisation",
+      "kultur"
+    ],
+    "persons": [],
+    "links": [
+      {
+        "type": "wiki",
+        "url": "http://www.fhp.nu/Hem/Om-oss/"
+      }
+    ]
+  },
+  {
+    "id": "1898-lo",
+    "year": 1898,
+    "title": "LO bildas",
+    "epoch": "informera-och-agitera",
+    "country": "sverige",
+    "size": "large",
+    "short": "Landsorganisationen i Sverige bildas som paraplyorganisation för landets fackförbund.",
+    "long": "Landsorganisationen i Sverige (LO) grundas som en central paraplyorganisation för de allt fler fackförbunden. LO fick en avgörande roll i förhandlingar med arbetsgivarna och i utformningen av den svenska arbetsmarknadsmodellen. Bildandet markerar ett nytt kapitel i den organiserade arbetarrörelsens historia.",
+    "tags": [
+      "organisation",
+      "bildande",
+      "fackförbund"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1901-forlossning",
+    "year": 1901,
+    "title": "Rätt till förlossningsledighet — utan lön",
+    "epoch": "informera-och-agitera",
+    "country": "sverige",
+    "size": "small",
+    "short": "Kvinnor ges rätt till ledighet vid förlossning, men utan lönekompensation.",
+    "long": "Lagstiftning ger för första gången kvinnor rätt att vara lediga i samband med förlossning. Rättigheten är dock utan lön, vilket begränsade dess praktiska nytta för de flesta arbetarkvinnor. Det var ett litet men symboliskt steg mot den föräldraledighet vi känner i dag.",
+    "tags": [
+      "lag",
+      "jämställdhet",
+      "föräldraledighet"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1902-saf",
+    "year": 1902,
+    "title": "SAF bildas",
+    "epoch": "informera-och-agitera",
+    "country": "sverige",
+    "size": "medium",
+    "short": "Svenska Arbetsgivareföreningen bildas som motvikt till den växande fackföreningsrörelsen.",
+    "long": "Arbetsgivarna svarar på fackföreningsrörelsens framväxt genom att bilda Svenska Arbetsgivareföreningen (SAF). SAF blev fackets motpart i förhandlingar och konflikter under hela 1900-talet och spelade en central roll i skapandet av den svenska arbetsmarknadsmodellen.",
+    "tags": [
+      "organisation",
+      "bildande"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1906-december",
+    "year": 1906,
+    "title": "Decemberkompromissen",
+    "epoch": "informera-och-agitera",
+    "country": "sverige",
+    "size": "large",
+    "short": "LO erkänner arbetsgivarnas rätt att leda arbetet. SAF erkänner fackets förhandlingsrätt.",
+    "long": "Decemberkompromissen 1906 är ett av de mest grundläggande avtalen i svensk arbetsmarknadshistoria. LO accepterade paragraf 23 — arbetsgivarnas rätt att leda och fördela arbetet och att fritt anställa och avskeda — i utbyte mot att SAF erkände fackens existens och förhandlingsrätt. Kompromissen lade grunden för de spelregler som präglade den svenska arbetsmarknaden under decennier.",
+    "tags": [
+      "avtal",
+      "förhandling"
+    ],
+    "persons": [],
+    "links": [
+      {
+        "type": "wiki",
+        "url": "http://sv.wikipedia.org/wiki/Decemberkompromissen"
+      }
+    ]
+  },
+  {
+    "id": "1908-amalthea",
+    "year": 1908,
+    "title": "Sprängningen av Amalthea",
+    "epoch": "informera-och-agitera",
+    "country": "sverige",
+    "size": "medium",
+    "short": "Syndikalisten Anton Nilsson spränger strejkbrytar-fartyget Amalthea i Malmö hamn.",
+    "long": "Syndikalisten Anton Nilsson spränger fartyget Amalthea i Malmö hamn. Fartyget användes för att inhysa engelska strejkbrytare under en hamnarbetarkonflikt. Tre strejkbrytare dödas och dussintals skadas. Nilsson dömdes till döden men benådades och frigavs 1917. Händelsen satte frågor om stridsformer och våldsanvändning i rörelsen i fokus.",
+    "tags": [
+      "konflikt",
+      "strejk"
+    ],
+    "persons": [
+      "Anton Nilsson"
+    ],
+    "links": []
+  },
+  {
+    "id": "1909-storstrejk",
+    "year": 1909,
+    "title": "Den stora strejken 1909",
+    "epoch": "informera-och-agitera",
+    "country": "sverige",
+    "size": "large",
+    "short": "300 000 arbetare strejkar. LO förlorar och tappar hälften av sina medlemmar.",
+    "long": "Som svar på en SAF-lockout utlyser LO generalstrejk. Nära 300 000 arbetare strejkar, men LO saknar ekonomiska resurser att hålla ut. Strejken slutar i förlust och LO:s medlemsantal faller från 162 000 till 85 000. Det var ett svårt slag för rörelsen, men den organiserade sig på nytt och återhämtade sig under 1910-talet.",
+    "tags": [
+      "strejk",
+      "konflikt",
+      "lockout"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1912-abf",
+    "year": 1912,
+    "title": "ABF bildas",
+    "epoch": "informera-och-agitera",
+    "country": "sverige",
+    "size": "medium",
+    "short": "Arbetarnas bildningsförbund grundas för att stärka folkbildningen inom arbetarrörelsen.",
+    "long": "Arbetarnas bildningsförbund (ABF) bildas som ett gemensamt bildningsorgan för rörelsen. ABF organiserade studiecirklar, föreläsningar och kulturverksamhet för att höja kunskapsnivån bland arbetare. Bildningsarbetet ansågs centralt för rörelsens långsiktiga framgång.",
+    "tags": [
+      "utbildning",
+      "bildande",
+      "organisation"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1914-ww1",
+    "year": 1914,
+    "title": "Första världskriget",
+    "epoch": "informera-och-agitera",
+    "country": "världen",
+    "size": "large",
+    "short": "Europa går in i ett världskrig (1914–1918) som dödar miljoner och omformar kontinenten.",
+    "long": "Det första världskriget 1914–1918 är en av historiens mest dödliga konflikter och förändrade den politiska kartan i grunden. För arbetarrörelsen innebar kriget en splittring: den internationella solidariteten prövades när partier och fackföreningar valde att stödja sina respektive regeringar. Krigets slut ledde till revolutioner och omvälvningar i hela Europa.",
+    "tags": [
+      "världshändelse",
+      "krig"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1917-ryska-rev",
+    "year": 1917,
+    "title": "Ryska revolutionen",
+    "epoch": "informera-och-agitera",
+    "country": "världen",
+    "size": "large",
+    "short": "Bolsjevikerna tar makten i Ryssland — ett jordskred som påverkar arbetarrörelser världen över.",
+    "long": "Bolsjevikpartiet under Lenin tar makten i Ryssland i oktober 1917. Revolutionen fick enorm symbolisk kraft för delar av den internationella arbetarrörelsen, medan den samtidigt skapade djupa splittningar mellan kommunister och socialdemokrater — en spricka som präglat rörelsen sedan dess.",
+    "tags": [
+      "världshändelse",
+      "revolution",
+      "politisk"
+    ],
+    "persons": [],
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Ryska_revolutionen"
+      }
+    ]
+  },
+  {
+    "id": "1918-finska-inb",
+    "year": 1918,
+    "title": "Finska inbördeskriget",
+    "epoch": "informera-och-agitera",
+    "country": "världen",
+    "size": "medium",
+    "short": "Kort men blodigt inbördeskrig i Finland mellan röda och vita garde.",
+    "long": "Direkt efter Rysslands revolution bryter inbördeskriget ut i Finland. Röda gardet — som representerade arbetare och torpare — slåss mot det vita gardet som stöddes av tyska trupper. De vita vann och de röda led enorma förluster. Kriget satte djupa spår i Finlands politiska och sociala historia.",
+    "tags": [
+      "världshändelse",
+      "krig",
+      "konflikt"
+    ],
+    "persons": [],
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Finska_inb%C3%B6rdeskriget"
+      }
+    ]
+  },
+  {
+    "id": "1919-rösträtt",
+    "year": 1919,
+    "title": "Allmän och lika rösträtt",
+    "epoch": "informera-och-agitera",
+    "country": "sverige",
+    "size": "large",
+    "short": "Sverige inför allmän rösträtt — utnyttjad för första gången i valet 1921.",
+    "long": "Riksdagen beslutar om allmän och lika rösträtt för alla svenska medborgare oavsett kön, stånd eller egendom. Det var resultatet av decennier av kamp från arbetarrörelsen och rösträttsrörelsen. Rättigheten utnyttjades för första gången i riksdagsvalet 1921 — det första val där kvinnor fick rösta.",
+    "tags": [
+      "demokrati",
+      "rösträtt",
+      "lag"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1919-8timmar",
+    "year": 1919,
+    "title": "Åtta timmars arbetsdag lagstadgas",
+    "epoch": "informera-och-agitera",
+    "country": "sverige",
+    "size": "large",
+    "short": "8-timmarsdagen blir lag — men lantarbetarna undantogs till 1930-talet.",
+    "long": "Arbetstiden lagbegränsas till åtta timmar per dag. Det är en milstolpe i en lång internationell kamp för kortare arbetsdag. Lantarbetarna undantogs dock från reformen och fick vänta ända till 1930-talet på att även de skulle omfattas av lagen.",
+    "tags": [
+      "lag",
+      "arbetstid"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1929-arbetsdomstolen",
+    "year": 1929,
+    "title": "Arbetsdomstolen inrättas",
+    "epoch": "informera-och-agitera",
+    "country": "sverige",
+    "size": "small",
+    "short": "En specialdomstol för arbetsrättsliga tvister inrättas.",
+    "long": "Arbetsdomstolen (AD) tillkommer som en specialdomstol för att lösa tvister på arbetsmarknaden. AD behandlar mål om tolkning av kollektivavtal och andra arbetsrättsliga frågor och spelar en central roll i den svenska arbetsmarknadsmodellen.",
+    "tags": [
+      "lag",
+      "rättsväsende"
+    ],
+    "persons": [],
+    "links": [
+      {
+        "type": "wiki",
+        "url": "http://sv.wikipedia.org/wiki/Arbetsdomstolen"
+      }
+    ]
+  },
+  {
+    "id": "1929-borskrasch",
+    "year": 1929,
+    "title": "Börskraschen och den stora depressionen",
+    "epoch": "informera-och-agitera",
+    "country": "världen",
+    "size": "large",
+    "short": "Wall Street kraschar. Den stora depressionen slår hårt mot arbetare världen över.",
+    "long": "Börsen på Wall Street kraschar i oktober 1929 och utlöser en global ekonomisk kris — den stora depressionen. Massarbetslöshet, lönesänkningar och social nöd drabbar miljoner. Krisen bidrog till politisk radikalisering och banade i Sverige bland annat vägen för den socialdemokratiska valsegern 1932.",
+    "tags": [
+      "världshändelse",
+      "ekonomi",
+      "kris"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1931-adalen",
+    "year": 1931,
+    "title": "Skotten i Ådalen",
+    "epoch": "informera-och-agitera",
+    "country": "sverige",
+    "size": "large",
+    "short": "Militär skjuter mot demonstrerande arbetare i Ådalen. Fem dödas.",
+    "long": "Under en pågående strejk i pappersindustrin i Ådalen 1931 öppnar militären eld mot en demonstration av strejkande och deras anhöriga. Fem personer dödas, däribland en ung kvinna som stod vid sidan av vägen. Händelsen väckte stark indignation i hela landet och bidrog starkt till socialdemokraternas valseger 1932. Ådalen 31 har blivit en av de mest omtalade händelserna i svensk arbetarrörelses historia.",
+    "tags": [
+      "strejk",
+      "konflikt",
+      "demonstration"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1932-sap-makten",
+    "year": 1932,
+    "title": "Socialdemokraterna vinner valet",
+    "epoch": "folkhemmet-och-valfardsstaten",
+    "country": "sverige",
+    "size": "large",
+    "short": "Per-Albin Hanssons SAP vinner valet — inleder decennier av socialdemokratiskt styre.",
+    "long": "Socialdemokraterna under Per-Albin Hansson vinner riksdagsvalet 1932 och inleder en period av socialdemokratiskt styre som i nästan oavbruten följd sträcker sig till 1976. Det är under dessa år som folkhemsbygget och välfärdsstaten tar form. Valsegern kom i kölvattnet av den ekonomiska krisen och skotten i Ådalen 1931.",
+    "tags": [
+      "politisk",
+      "val"
+    ],
+    "persons": [
+      "Per-Albin Hansson"
+    ],
+    "links": []
+  },
+  {
+    "id": "1938-saltsjobad",
+    "year": 1938,
+    "title": "Saltsjöbadsavtalet",
+    "epoch": "folkhemmet-och-valfardsstaten",
+    "country": "sverige",
+    "size": "large",
+    "short": "LO och SAF tecknar ett historiskt avtal som lägger grunden för den svenska modellen.",
+    "long": "LO och SAF träffas i Saltsjöbaden och tecknar ett huvudavtal som reglerar spelreglerna på den svenska arbetsmarknaden. Avtalet innehöll bestämmelser om strejkrätt med varseltid, förhandlingsordning och rätt till semester — bland annat två veckors betald semester. Saltsjöbadsavtalet ses som grundstenen i den svenska modellen av arbetsmarknadsrelationer.",
+    "tags": [
+      "avtal",
+      "förhandling",
+      "semester"
+    ],
+    "persons": [],
+    "links": [
+      {
+        "type": "wiki",
+        "url": "http://sv.wikipedia.org/wiki/Saltsj%C3%B6badsavtalet"
+      }
+    ]
+  },
+  {
+    "id": "1939-ww2",
+    "year": 1939,
+    "title": "Andra världskriget",
+    "epoch": "folkhemmet-och-valfardsstaten",
+    "country": "världen",
+    "size": "large",
+    "short": "Europa och världen kastas in i ett nytt världskrig (1939–1945).",
+    "long": "Det andra världskriget 1939–1945 är historiens mest dödliga konflikt med uppskattningsvis 70–85 miljoner döda. Sverige förblev formellt neutralt men påverkades djupt av kriget. För arbetarrörelsen ställde kriget frågor om antifascism, solidaritet och neutralitetspolitik på sin spets.",
+    "tags": [
+      "världshändelse",
+      "krig"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1951-3veckor",
+    "year": 1951,
+    "title": "Tre veckors lagstadgad semester",
+    "epoch": "folkhemmet-och-valfardsstaten",
+    "country": "sverige",
+    "size": "small",
+    "short": "Semestern utökas till tre veckor i lag.",
+    "long": "Semesterlagen ändras och ger svenska löntagare rätt till tre veckors betald semester. Det är ett steg i den gradvisa utbyggnad av semester som präglade efterkrigstiden.",
+    "tags": [
+      "lag",
+      "semester"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1959-atp",
+    "year": 1959,
+    "title": "ATP — Allmän tilläggspension beslutas",
+    "epoch": "folkhemmet-och-valfardsstaten",
+    "country": "sverige",
+    "size": "large",
+    "short": "Riksdagen beslutar om ATP — en avgörande seger för LO och socialdemokratin.",
+    "long": "Efter en av 1900-talets hetaste politiska debatter beslutar riksdagen att genomföra Allmän tilläggspension (ATP). LO och SAP kämpade hårt för reformen mot hårt motstånd. ATP-frågan ledde till extra val 1958 och till att Folkpartiet sprack. Reformen lade grunden för det svenska pensionssystemet och ses som en av socialdemokratins viktigaste segrar.",
+    "tags": [
+      "lag",
+      "pension",
+      "politisk"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1960-kvinnoloner",
+    "year": 1960,
+    "title": "Avtalet om att fasa ut särskilda kvinnolöner",
+    "epoch": "folkhemmet-och-valfardsstaten",
+    "country": "sverige",
+    "size": "medium",
+    "short": "LO och SAF avtalar om att fasa ut de lägre kvinnolönerna under fem år.",
+    "long": "LO och SAF tecknar avtal om att de särskilda lägre lönenivåerna för kvinnor ska fasas ut under fem år. Det var ett erkännande av att lönediskriminering på grund av kön var ett problem som behövde åtgärdas, även om lika lön i praktiken tog lång tid att förverkliga.",
+    "tags": [
+      "avtal",
+      "lön",
+      "jämställdhet"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1962-forskola",
+    "year": 1962,
+    "title": "Förskolan byggs kraftigt ut",
+    "epoch": "folkhemmet-och-valfardsstaten",
+    "country": "sverige",
+    "size": "medium",
+    "short": "Dagisutbyggnaden tar fart och begreppet förskola lanseras.",
+    "long": "En kraftig utbyggnad av barnomsorg inleds och begreppet förskola lanseras. En tillgänglig barnomsorgssektor var en förutsättning för att möjliggöra kvinnors inträde på arbetsmarknaden i stor skala. Utbyggnaden är ett av de viktigaste inslagen i välfärdsstatens expansion under 1960-talet.",
+    "tags": [
+      "utbildning",
+      "jämställdhet",
+      "välfärd"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1963-4veckor",
+    "year": 1963,
+    "title": "Fyra veckors lagstadgad semester",
+    "epoch": "folkhemmet-och-valfardsstaten",
+    "country": "sverige",
+    "size": "small",
+    "short": "Semestern utökas till fyra veckor i lag.",
+    "long": "Semesterlagen ändras och löntagare ges rätt till fyra veckors betald semester. En fortsatt utbyggnad av den lediga tid som ansågs central för ett värdigt arbetarliv.",
+    "tags": [
+      "lag",
+      "semester"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1966-offentliga",
+    "year": 1966,
+    "title": "Offentliganställda ges strejkrätt",
+    "epoch": "folkhemmet-och-valfardsstaten",
+    "country": "sverige",
+    "size": "large",
+    "short": "Stats- och kommunalanställda ges rätt att strejka och förhandla kollektivt.",
+    "long": "En lagändring ger offentliganställda — statliga och kommunala — rätt till kollektivavtal, förhandling och stridsåtgärder. Det var en stor förändring som öppnade vägen för starka fackliga organisationer inom offentlig sektor. Reformen förändrade styrkeförhållandena på hela arbetsmarknaden.",
+    "tags": [
+      "lag",
+      "förhandling",
+      "konflikt"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1968-komvux",
+    "year": 1968,
+    "title": "KOMVUX inrättas",
+    "epoch": "folkhemmet-och-valfardsstaten",
+    "country": "sverige",
+    "size": "small",
+    "short": "Kommunal vuxenutbildning inrättas — möjliggör för vuxna att komplettera sin utbildning.",
+    "long": "KOMVUX (kommunal vuxenutbildning) inrättas och ger vuxna möjlighet att gå tillbaka till skolan för att komplettera eller höja sin utbildningsnivå. Det var ett viktigt steg för rörlighet och likvärdighet i utbildningssystemet.",
+    "tags": [
+      "utbildning"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1969-gruvstrejk",
+    "year": 1969,
+    "title": "Gruvstrejken i Kiruna",
+    "epoch": "folkhemmet-och-valfardsstaten",
+    "country": "sverige",
+    "size": "large",
+    "short": "LKAB-gruvarbetare i Kiruna startar en vild strejk utan fackförbundets godkännande.",
+    "long": "Gruvarbetare vid LKAB i Kiruna startar en vild strejk utan stöd eller uppdrag från det egna fackförbundet. Strejken spred sig och varade i månader. Den uttryckte ett missnöje med lönesättning och arbetsmiljö, men också med den fackliga byråkratin. Gruvstrejken satte demokratisering av arbetslivet och de anställdas medinflytande högt på agendan.",
+    "tags": [
+      "strejk",
+      "konflikt"
+    ],
+    "persons": [],
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Stora_gruvstrejken_1969%E2%80%931970"
+      }
+    ]
+  },
+  {
+    "id": "1971-arbetstid",
+    "year": 1971,
+    "title": "40 timmars arbetsvecka lagstadgas",
+    "epoch": "folkhemmet-och-valfardsstaten",
+    "country": "sverige",
+    "size": "large",
+    "short": "Arbetstidslagen fastslår 40 timmars arbetsvecka.",
+    "long": "Arbetstidslagen fastslår 40 timmars arbetsvecka som norm. Det är kulmen på en lång kamp för kortare arbetstid och markerar en viktig milstolpe i regleringen av arbetslivet.",
+    "tags": [
+      "lag",
+      "arbetstid"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1974-las-fml",
+    "year": 1974,
+    "title": "LAS och FML stiftas",
+    "epoch": "folkhemmet-och-valfardsstaten",
+    "country": "sverige",
+    "size": "large",
+    "short": "Lagen om anställningsskydd och förtroendemannalagen stärker tryggheten för löntagare.",
+    "long": "Lagen om anställningsskydd (LAS) ger arbetstagare skydd mot godtyckliga uppsägningar — arbetsgivaren måste ha sakliga skäl. Lagen om facklig förtroendemans ställning på arbetsplatsen (FML) ger fackliga förtroendevalda rätt till ledighet för fackligt arbete och skydd mot negativ behandling. Dessa lagar är grundläggande i det svenska anställningsskyddet.",
+    "tags": [
+      "lag",
+      "anställningsskydd"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1976-mbl",
+    "year": 1976,
+    "title": "Medbestämmandelagen (MBL)",
+    "epoch": "folkhemmet-och-valfardsstaten",
+    "country": "sverige",
+    "size": "large",
+    "short": "MBL ger facken rätt att förhandla innan arbetsgivaren fattar viktiga beslut.",
+    "long": "Lagen om medbestämmande i arbetslivet (MBL) ger fackliga organisationer rätt att förhandla med arbetsgivaren innan beslut om t.ex. driftsinskränkningar, outsourcing eller omorganisationer. Det är en av de mest betydelsefulla arbetsrättsliga reformerna under 1970-talet.",
+    "tags": [
+      "lag",
+      "medbestämmande",
+      "förhandling"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1978-5veckor",
+    "year": 1978,
+    "title": "Fem veckors lagstadgad semester",
+    "epoch": "folkhemmet-och-valfardsstaten",
+    "country": "sverige",
+    "size": "small",
+    "short": "Semestern utökas till fem veckor i lag.",
+    "long": "Semesterlagen utökas till fem veckor betald semester per år. Sverige placerar sig med detta bland de länder i världen med längst lagstadgad semester.",
+    "tags": [
+      "lag",
+      "semester"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1978-timbro",
+    "year": 1978,
+    "title": "Timbro grundas",
+    "epoch": "folkhemmet-och-valfardsstaten",
+    "country": "sverige",
+    "size": "medium",
+    "short": "Svenskt Näringsliv bildar Timbro som liberal tankesmedja och motpol till vänstern.",
+    "long": "Organisationen Svenskt Näringsliv bildar Timbro som en liberal och marknadsorienterad tankesmedja. Timbro fick en viktig roll i att forma och sprida idéer om privatisering, avreglering och marknadslösningar som motvikt till den dominerande socialdemokratiska ideologin. Grundandet kan ses som ett svar på 1970-talets fackliga framgångar.",
+    "tags": [
+      "organisation",
+      "politisk"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1980-storlockout",
+    "year": 1980,
+    "title": "Storlockout 1980",
+    "epoch": "folkhemmet-och-valfardsstaten",
+    "country": "sverige",
+    "size": "large",
+    "short": "SAF genomför den mest omfattande arbetsmarknadskonflikten i Sverige sedan 1909.",
+    "long": "SAF genomför en massiv storlockout som drabbar hundratusentals arbetstagare. Det är den mest omfångsrika arbetsmarknadskonflikten i Sverige sedan storstrejken 1909. Konflikten avslutas med ett kompromissavtal, men ses som ett tecken på att den konsensuskultur som präglat arbetsmarknaden sedan Saltsjöbaden var under press.",
+    "tags": [
+      "lockout",
+      "konflikt"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1983-jamlikt",
+    "year": 1983,
+    "title": "Sverige — världens mest jämlika land",
+    "epoch": "folkhemmet-och-valfardsstaten",
+    "country": "sverige",
+    "size": "medium",
+    "short": "Sverige uppmäts som världens mest inkomstjämlika land.",
+    "long": "Mätningar visar att Sverige vid denna tidpunkt har den mest jämlika inkomstfördelningen av alla länder i världen. Det är en kulmen på decennier av aktiv omfördelningspolitik, solidarisk lönepolitik och välfärdsutbyggnad. Perioden markerar toppen av det jämlika Sverige — sedan dess har ojämlikheten successivt ökat.",
+    "tags": [
+      "jämlikhet",
+      "ekonomi"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1983-lontagarfonder",
+    "year": 1983,
+    "title": "Löntagarfonderna genomförs i nedbantad form",
+    "epoch": "folkhemmet-och-valfardsstaten",
+    "country": "sverige",
+    "size": "large",
+    "short": "LO:s förslag om löntagarfonder antas av SAP i starkt beskuren version.",
+    "long": "Rudolf Meidners ursprungliga förslag om löntagarfonder — där en del av företagens vinster successivt skulle övergå i kollektivt ägande via fackförbunden — mötte hårt motstånd från arbetsgivarna och högerpartierna. Det SAP slutligen antog 1983 var ett kraftigt nedbantad kompromissförslag. Löntagarfonderna avvecklades 1990 av en borgerlig regering. Frågan är en av de mest kontroversiella i modern svensk politisk historia.",
+    "tags": [
+      "politisk",
+      "ekonomi",
+      "lön"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1985-kreditreglering",
+    "year": 1985,
+    "title": "Kreditmarknaden avregleras",
+    "epoch": "forvaltande",
+    "country": "sverige",
+    "size": "medium",
+    "short": "Kreditregleringen avskaffas och inleder en ny ekonomisk era.",
+    "long": "Avskaffandet av kreditregleringen öppnar upp kreditmarknaden i Sverige. Det innebär att lånevolymerna exploderar, fastighetsmarknaden hettar upp och skuldsättningen ökar kraftigt. Den här avregleringen är en av de faktorer som bidrar till den djupa ekonomiska krisen i början av 1990-talet.",
+    "tags": [
+      "ekonomi",
+      "politisk",
+      "avreglering"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1986-palme",
+    "year": 1986,
+    "title": "Olof Palme mördas",
+    "epoch": "forvaltande",
+    "country": "sverige",
+    "size": "large",
+    "short": "Statsminister Olof Palme skjuts till döds på Sveavägen i Stockholm.",
+    "long": "Den 28 februari 1986 skjuts statsminister Olof Palme till döds på Sveavägen i Stockholm. Det är ett attentat utan motstycke i modern svensk historia. Palme var en av socialdemokratins och den internationella vänsterns mest inflytelserika och kontroversiella figurer. Hans mord lämnade ett djupt sår i Sverige och i rörelsen — och mordet är alltjämt officiellt olöst.",
+    "tags": [
+      "politisk"
+    ],
+    "persons": [
+      "Olof Palme"
+    ],
+    "links": []
+  },
+  {
+    "id": "1989-berlinmuren",
+    "year": 1989,
+    "title": "Berlinmuren faller",
+    "epoch": "forvaltande",
+    "country": "världen",
+    "size": "large",
+    "short": "DDR öppnar sina gränser. Muren faller och det kalla kriget tar slut.",
+    "long": "Den 9 november 1989 öppnar DDR sina gränser och Berlinmuren faller. Det kalla kriget är i praktiken slut och östblockets stater demokratiseras och övergår till marknadsekonomi. För den europeiska vänstern och arbetarrörelsen innebar murens fall en ideologisk utmaning och omprövning.",
+    "tags": [
+      "världshändelse",
+      "politisk"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1991-27dagar",
+    "year": 1991,
+    "title": "27 dagars semester",
+    "epoch": "forvaltande",
+    "country": "sverige",
+    "size": "small",
+    "short": "Semestern utökas temporärt till 27 dagar.",
+    "long": "Semesterlagen ändras och löntagare ges rätt till 27 dagars semester (5 veckor + 2 dagar). Ändringen visade sig vara kortlivad — dagen skulle komma att tas bort bara tre år senare.",
+    "tags": [
+      "lag",
+      "semester"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "1994-2dagar",
+    "year": 1994,
+    "title": "Två semesterdagar tas bort",
+    "epoch": "forvaltande",
+    "country": "sverige",
+    "size": "small",
+    "short": "Under 1990-talskrisen tas de två extra semesterdagarna bort.",
+    "long": "Som ett led i budgetsaneringen under 1990-talskrisen tas de två extra semesterdagarna bort och semestern återgår till fem veckor. Det visar att även lagstadgade rättigheter kan skäras ned i krislägen.",
+    "tags": [
+      "lag",
+      "semester",
+      "ekonomi"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "2000-medling",
+    "year": 2000,
+    "title": "Medlingsinstitutet inrättas",
+    "epoch": "forvaltande",
+    "country": "sverige",
+    "size": "small",
+    "short": "En statlig myndighet för medling i arbetsmarknadskonflikter tillkommer.",
+    "long": "Medlingsinstitutet inrättas som en statlig myndighet med uppdrag att medla i arbetsmarknadskonflikter och att ansvara för officiell lönestatistik. Det markerar en mer aktiv statlig roll i att förebygga och lösa arbetsmarknadskonflikter.",
+    "tags": [
+      "lag",
+      "förhandling",
+      "organisation"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "2007-lex-laval",
+    "year": 2007,
+    "title": "Lex Laval",
+    "epoch": "forvaltande",
+    "country": "sverige",
+    "size": "large",
+    "short": "EU-domstolen begränsar svenska fackförbunds rätt att vidta stridsåtgärder mot utländska bolag.",
+    "long": "EU-domstolens dom i Laval-målet fastslår att ett latviskt bolag som utstationerade lettiska byggnadsarbetare i Sverige inte kunde krävas på svenska kollektivavtalsvillkor utan vidare. Domen tvingade Sverige att ändra sin lagstiftning (Lex Laval) och begränsade kraftigt fackens möjlighet att vidta stridsåtgärder mot utländska bolag. Lex Laval ses som ett allvarligt ingrepp i den svenska modellen och skapade en intensiv debatt om EU och arbetsrätt.",
+    "tags": [
+      "lag",
+      "EU",
+      "konflikt"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "2007-a-kassa",
+    "year": 2007,
+    "title": "Försämrad a-kassa — kraftigt medlemsfall",
+    "epoch": "forvaltande",
+    "country": "sverige",
+    "size": "large",
+    "short": "Alliansen höjer avgifter och sänker ersättning. Fackens medlemsantal faller kraftigt.",
+    "long": "Alliansregeringen höjer avgifterna till a-kassan och sänker ersättningsgraden. Resultatet är att hundratusentals löntagare väljer att lämna a-kassan — och i förlängningen sina fackförbund, eftersom a-kassan administreras av fackföreningarna. Det är det kraftigaste fallet i facklig anslutningsgrad sedan storstrejken 1909.",
+    "tags": [
+      "lag",
+      "a-kassa",
+      "politisk"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "2007-ava",
+    "year": 2007,
+    "title": "Allmän visstid (AVA) införs",
+    "epoch": "forvaltande",
+    "country": "sverige",
+    "size": "medium",
+    "short": "Lagen om allmän visstid öppnar för fler tidsbegränsade anställningar.",
+    "long": "Allmän visstid (AVA) är en ny anställningsform som gör det lättare för arbetsgivare att erbjuda tidsbegränsade kontrakt. Fackförbunden kritiserade reformen hårt för att den undergrävde anställningstryggheten, särskilt för unga och tillfälligt anställda.",
+    "tags": [
+      "lag",
+      "anställningsskydd"
+    ],
+    "persons": [],
+    "links": []
+  },
+  {
+    "id": "2015-huvudentreprenad",
+    "year": 2015,
+    "title": "Huvudentreprenörsansvar",
+    "epoch": "forvaltande",
+    "country": "sverige",
+    "size": "small",
+    "short": "Lag om ansvar längs entreprenadkedjor för att motverka lönedumpning.",
+    "long": "En lagstiftning om huvudentreprenörsansvar innebär att den som anlitar underentreprenörer ansvarar för att löner betalas ut korrekt längs hela leveranskedjan. Det är ett verktyg för att motverka social dumpning och löneunderskridanden i branscher med komplexa underentreprenadkedjor.",
+    "tags": [
+      "lag",
+      "lön"
+    ],
+    "persons": [],
+    "links": []
+  }
+]
