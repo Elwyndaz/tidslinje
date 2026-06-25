@@ -53,3 +53,7 @@ git push
 # 9. Status
 git status
 git log --oneline -n 1
+
+# 10. Bygg
+npm run build:gh
+npm run deploy

@@ -115,7 +115,8 @@
         "type": "wiki",
         "url": "http://www.fhp.nu/Hem/Om-oss/"
       }
-    ]
+    ],
+    "image": "images/1890-folkets-hus.webp"
   },
   {
     "id": "1898-lo",
@@ -137,7 +138,8 @@
         "type": "wiki",
         "url": "https://sv.wikipedia.org/wiki/Landsorganisationen_i_Sverige"
       }
-    ]
+    ],
+    "image": "images/1898-lo.webp"
   },
   {
     "id": "1901-forlossning",
@@ -400,7 +402,8 @@
         "type": "wiki",
         "url": "https://sv.wikipedia.org/wiki/Arbetsdomstolen"
       }
-    ]
+    ],
+    "image": "images/1929-arbetsdomstolen.webp"
   },
   {
     "id": "1929-borskrasch",
@@ -422,7 +425,8 @@
         "type": "wiki",
         "url": "https://sv.wikipedia.org/wiki/Wall_Street-kraschen_1929"
       }
-    ]
+    ],
+    "image": "images/1929-borskrasch.webp"
   },
   {
     "id": "1931-adalen",
@@ -526,7 +530,8 @@
         "type": "wiki",
         "url": "https://sv.wikipedia.org/wiki/Andra_v%C3%A4rldskriget"
       }
-    ]
+    ],
+    "image": "images/1939-ww2.webp"
   },
   {
     "id": "1951-3veckor",
