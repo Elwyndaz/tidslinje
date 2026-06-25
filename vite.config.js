@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// OBS: Byt ut 'arbetarrorelsens-tidslinje' mot ditt faktiska GitHub-repo-namn
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   plugins: [react()],
-  base: '/tidslinje/',
-})
+  base: mode === 'gh' ? '/tidslinje/' : '/',
+}))
