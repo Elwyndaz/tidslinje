@@ -47,7 +47,8 @@
         "type": "podcast",
         "url": "https://poddtoppen.se/podcast/1665577095/vi-bygger-landet/sundsvallsstrejken-den-forsta-stora-striden"
       }
-    ]
+    ],
+    "image": "images/1879-sundsvall.webp"
   },
   {
     "id": "1889-traarbetare",
@@ -89,8 +90,13 @@
       {
         "type": "wiki",
         "url": "https://sv.wikipedia.org/wiki/Sveriges_socialdemokratiska_arbetareparti"
+      },
+      {
+        "type": "podcast",
+        "url": "https://shows.acast.com/vi-bygger-landet/episodes/63d270b7f34d560011134473"
       }
-    ]
+    ],
+    "image": "images/1889-sap.webp"
   },
   {
     "id": "1890-folkets-hus",
@@ -198,7 +204,8 @@
         "type": "wiki",
         "url": "https://sv.wikipedia.org/wiki/Decemberkompromissen"
       }
-    ]
+    ],
+    "image": "images/1906-december.webp"
   },
   {
     "id": "1908-amalthea",
@@ -224,6 +231,10 @@
       {
         "type": "video",
         "url": "https://www.lo.se/lo-play/amaltheadadet-1908"
+      },
+      {
+        "type": "podcast",
+        "url": "https://shows.acast.com/historiepodden/episodes/564-amaltheadadet-och-storstrejken-1909"
       }
     ]
   },
@@ -297,6 +308,56 @@
     ]
   },
   {
+    "id": "1915-joe-hill",
+    "year": 1915,
+    "title": "Joe Hill avrättas",
+    "epoch": "informera-och-agitera",
+    "country": "världen",
+    "size": "medium",
+    "short": "Svenskfödde arbetarsångaren Joe Hill avrättas i Utah efter en starkt ifrågasatt rättegång.",
+    "long": "Joel Hägglund, född i Gävle 1879 och utvandrad till USA 1902, blir under namnet Joe Hill en av den amerikanska fackföreningsrörelsens mest kända sångare och agitatorer inom IWW (Industrial Workers of the World). Han döms för mord i en rättegång som ifrågasattes hårt både i USA och internationellt, och avrättas genom arkebusering i Salt Lake City den 19 november 1915. Hans sista ord — \"Sörj inte, organisera!\" — och hans sånger blev en del av arbetarrörelsens internationella kulturarv.",
+    "tags": [
+      "kultur",
+      "fackförening",
+      "USA"
+    ],
+    "persons": [
+      "Joe Hill"
+    ],
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Joe_Hill"
+      },
+      {
+        "type": "podcast",
+        "url": "https://www.sverigesradio.se/avsnitt/670328"
+      }
+    ]
+  },
+  {
+    "id": "1917-seskaro",
+    "year": 1917,
+    "title": "Seskaröupproret",
+    "epoch": "informera-och-agitera",
+    "country": "sverige",
+    "size": "small",
+    "short": "Arbetare på ön Seskarö bryter mot brödransoneringen — ön ockuperas av militär.",
+    "long": "Våren 1917, mitt under första världskrigets livsmedelsbrist och stränga ransonering, bryter arbetarna på ön Seskarö i Bottenviken mot brödransoneringen. Myndigheterna svarar med att låta militären ockupera ön. Händelsen är en av flera så kallade hungerkravaller som skakade Sverige under krigsåren och som bidrog till trycket för sociala reformer och utökad rösträtt.",
+    "tags": [
+      "hungerkravall",
+      "konflikt",
+      "ransonering"
+    ],
+    "persons": [],
+    "links": [
+      {
+        "type": "podcast",
+        "url": "https://shows.acast.com/historiepodden/episodes/244-seskaroupproret-1917"
+      }
+    ]
+  },
+  {
     "id": "1917-ryska-rev",
     "year": 1917,
     "title": "Ryska revolutionen",
@@ -359,8 +420,13 @@
       {
         "type": "wiki",
         "url": "https://sv.wikipedia.org/wiki/R%C3%B6str%C3%A4tt_i_Sverige"
+      },
+      {
+        "type": "podcast",
+        "url": "https://shows.acast.com/vi-bygger-landet/episodes/6554d4705eb5d300129838c5"
       }
-    ]
+    ],
+    "image": "images/1919-rösträtt.webp"
   },
   {
     "id": "1919-8timmar",
@@ -534,6 +600,58 @@
     "image": "images/1939-ww2.webp"
   },
   {
+    "id": "1940-norrskensflamman",
+    "year": 1940,
+    "title": "Attentatet mot Norrskensflamman",
+    "epoch": "folkhemmet-och-valfardsstaten",
+    "country": "sverige",
+    "size": "large",
+    "short": "Bomb spränger den kommunistiska tidningen Norrskensflammans lokaler i Luleå — fem dör.",
+    "long": "Natten mot den 3 mars 1940 exploderar en bomb i den kommunistiska tidningen Norrskensflammans lokaler i Luleå. Fem personer, däribland barn, dödas. Dådet sker under en tid då kommunister sågs som ett hot mot den svenska neutralitetspolitiken och utsattes för övervakning och repression. Attentatet räknas som ett av 1900-talets värsta politiska terrordåd i Sverige och förblev under lång tid ouppklarat.",
+    "tags": [
+      "terrordåd",
+      "kommunism",
+      "andra världskriget"
+    ],
+    "persons": [],
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Attentatet_mot_Norrskensflamman"
+      },
+      {
+        "type": "podcast",
+        "url": "https://shows.acast.com/historiepodden/episodes/historiepodden-14-norrskensflamman-brinner"
+      }
+    ]
+  },
+  {
+    "id": "1945-statare",
+    "year": 1945,
+    "title": "Statarsystemet avskaffas",
+    "epoch": "folkhemmet-och-valfardsstaten",
+    "country": "sverige",
+    "size": "medium",
+    "short": "Sista statarna slutar — den gamla naturaformen av lantarbetarlön avvecklas.",
+    "long": "Statarsystemet innebar att lantarbetare fick en stor del av lönen i natura — bostad, mjölk, spannmål — snarare än kontant lön, vilket band dem hårt till godsen. Efter decennier av facklig kamp, inte minst från Svenska Lantarbetareförbundet, avtalas systemet bort och 1945 lämnar den sista generationen statare sina anställningar. Avskaffandet blev en viktig symbolfråga för arbetarrörelsen och skildrades av flera av Sveriges mest lästa författare, bland dem Ivar Lo-Johansson och Moa Martinson.",
+    "tags": [
+      "lantarbetare",
+      "avtal",
+      "levnadsvillkor"
+    ],
+    "persons": [],
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Statare"
+      },
+      {
+        "type": "podcast",
+        "url": "https://shows.acast.com/historiepodden/episodes/605-statarna"
+      }
+    ]
+  },
+  {
     "id": "1951-3veckor",
     "year": 1951,
     "title": "Tre veckors lagstadgad semester",
@@ -573,6 +691,10 @@
       {
         "type": "wiki",
         "url": "https://sv.wikipedia.org/wiki/Allm%C3%A4n_till%C3%A4ggspension"
+      },
+      {
+        "type": "podcast",
+        "url": "https://shows.acast.com/vi-bygger-landet/episodes/66f5110a10237237778eadd6"
       }
     ]
   },
@@ -691,6 +813,10 @@
       {
         "type": "wiki",
         "url": "https://sv.wikipedia.org/wiki/Stora_gruvstrejken_1969%E2%80%931970"
+      },
+      {
+        "type": "podcast",
+        "url": "https://www.sverigesradio.se/avsnitt/den-vilda-gruvstrejken-i-kiruna-malmberget-norrbotten-1969-1970"
       }
     ]
   },
@@ -899,8 +1025,13 @@
       {
         "type": "wiki",
         "url": "https://sv.wikipedia.org/wiki/Olof_Palme"
+      },
+      {
+        "type": "podcast",
+        "url": "https://www.sverigesradio.se/avsnitt/det-olosta-palmemordet-r"
       }
-    ]
+    ],
+    "image": "images/1986-palme.webp"
   },
   {
     "id": "1989-berlinmuren",
@@ -921,7 +1052,8 @@
         "type": "wiki",
         "url": "https://sv.wikipedia.org/wiki/Berlinmuren"
       }
-    ]
+    ],
+    "image": "images/1989-berlinmuren.webp"
   },
   {
     "id": "1991-27dagar",

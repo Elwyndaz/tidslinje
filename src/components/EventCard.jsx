@@ -1,5 +1,11 @@
-// Emoji-ikoner för länktyper — byts ut mot SVG-ikoner senare om det behövs
-const ICONS = { podcast: '🎙️', video: '🎬', wiki: '📖' }
+import { WikiIcon } from './icons'
+
+// Ikoner för länktyper — wiki har egen SVG för att skilja sig från emojis
+const ICONS = {
+  podcast: '🎙️',
+  video: '🎬',
+  wiki: <WikiIcon className="w-3.5 h-3.5" />,
+}
 
 // Tailwind-klasser per kortstorlek
 const SIZE = {
@@ -65,10 +71,10 @@ export default function EventCard({ event, onOpen }) {
 
       {/* Länkikoner */}
       {hasLinks && (
-        <div className="flex gap-2 mt-2">
+        <div className="flex items-center gap-2 mt-2">
           {event.links.map((link, i) => (
             <span key={i} title={link.type} className="text-sm leading-none">
-              {ICONS[link.type] || '🔗'}
+              {ICONS[link.type] ?? '🔗'}
             </span>
           ))}
         </div>

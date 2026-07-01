@@ -1,6 +1,11 @@
 import { useEffect } from 'react'
+import { WikiIcon } from './icons'
 
-const ICONS = { podcast: '🎙️', video: '🎬', wiki: '📖' }
+const ICONS = {
+  podcast: '🎙️',
+  video: '🎬',
+  wiki: <WikiIcon className="w-[18px] h-[18px]" />,
+}
 
 const LINK_LABEL = { podcast: 'Podcast', video: 'Video', wiki: 'Läs mer' }
 
@@ -71,7 +76,7 @@ export default function Modal({ event, onClose }) {
                   rel="noopener noreferrer"
                   className="flex items-center gap-1.5 text-sm text-gray-500 hover:text-accent transition-colors"
                 >
-                  <span className="text-lg">{ICONS[link.type] || '🔗'}</span>
+                  <span className="text-lg">{ICONS[link.type] ?? '🔗'}</span>
                   <span>{LINK_LABEL[link.type] || link.type}</span>
                 </a>
               ))}
