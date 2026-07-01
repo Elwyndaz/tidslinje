@@ -13,14 +13,16 @@ Fackmedlemmar, kursdeltagare i fackliga kurser, fackligt nyfikna. Kan kontexten 
 - Data: `src/data/events.json` (redigeras manuellt i texteditor)
 
 ## Design
-- Accentfärg: mörkrött `#8B0000` (definierad som `accent` i tailwind.config.js)
-- Bakgrund: vit
+- Logotyp: `src/components/Logo.jsx` (inline SVG, horisontell variant — se `design_handoff_tidslinje_logga`-paketet för primär/mörk/favicon-varianter)
+- Accentfärg: dämpad tegelröd `#B0342B` (definierad som `accent` i tailwind.config.js)
+- Bakgrund: varm krämvit `#EFEBE4` (`cream`), kort i vitt (`paper`)
+- Typografi i loggan: Fraunces (serif, 500) + Archivo (versal grotesk, 800), laddade via Google Fonts i `index.html`
 - Vertikal tidslinje
 - Desktop: händelser alternerande vänster/höger
 - Mobil: alla kort till höger
 - Tre kortstorlekar: `large | medium | small` (styrs per händelse i JSON)
 - Modal öppnas vid klick på kort
-- Ikonindikationer på korten: 🎙️ podcast · 🎬 video · 📖 wiki
+- Ikonindikationer på korten: 🎙️ podcast · 🎬 video · wiki (egen SVG, `src/components/icons.jsx`)
 
 ## Språk
 Svenska. Inga hårdkodade strängar i koden — öppet för flerspråk senare.
