@@ -3,19 +3,31 @@ Kör från projektets rot:  python scripts/download-images.py
 
 Kräver:  pip install Pillow requests
 
-Hämtar bilder för varje händelse via flera strategier:
-  1. Manuell Commons-fil (verifierade filnamn)
-  2. Sökning via en extra nyckelordslista
-  3. Automatisk hämtning via sv.wikipedia pageimages-API
-  4. Fallback via en.wikipedia pageimages-API
+Hämtar bilder för varje händelse via flera strategier, i tur och ordning:
+  1. Manuell Commons-fil (bara för fall där automatiken väljer fel bild)
+  2. sv.wikipedia pageimages-API — Wikipedias egen "huvudbild" för artikeln
+  3. sv.wikipedia — alla bilder som faktiskt förekommer i artikeln (prop=images),
+     i den ordning de nämns, med ikoner/loggor/kartor/små bilder bortfiltrerade
+  4. Samma två steg (2+3) mot en.wikipedia, för händelser med en EN_WIKI-post
+
+Steg 3 är den nya, smartare delen: istället för att bara lita på Wikipedias
+auto-vald "sidbild" (som ofta saknas) letar den upp riktiga foton som redan
+ligger inbäddade i artikeln — samma sätt som att öppna artikeln och ta första
+rimliga bilden, fast automatiskt.
 
 Konverterar till WebP (max 800 px bred) och sparar i public/images/.
 Uppdaterar src/data/events.json med image-fältet.
 """
 
-import json, requests, os, io, time, urllib.parse
+import json, requests, os, io, time, sys, urllib.parse
 from PIL import Image
 from pathlib import Path
+
+# Windows-konsolen är ofta cp1252 och kraschar på ✓/→ annars.
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+except AttributeError:
+    pass
 
 ROOT       = Path(__file__).parent.parent
 EVENTS     = ROOT / "src" / "data" / "events.json"
@@ -24,46 +36,20 @@ IMAGES_DIR.mkdir(parents=True, exist_ok=True)
 
 HEADERS = {"User-Agent": "ArbetrorrelseTidslinje/1.0 (educational, non-commercial)"}
 
-# ── Verifierade Commons-filer ──────────────────────────────────────────────
-# Filnamn bekräftade via commons.wikimedia.org-sökningar.
-# Special:FilePath/{filnamn} är en stabil redirect → faktisk URL.
-MANUAL = {
-    # Epok 1
-    "1879-sundsvall":     "Proclamation amelin 01.JPG",          # Amelin-affisch om strejken
-    "1889-sap":           "Hjalmar branting stor bild.jpg",       # SAP:s ledare
-    "1890-folkets-hus":   "Folkets hus Lund.jpg",                 # Folketshusbuildning
-    "1898-lo":            "LO-huset Stockholm.jpg",               # LO:s huvudkontor
-    "1902-saf":           "Storgatan 19 Stockholm.jpg",           # SAF-huset (historisk)
-    "1906-december":      "Karl Hjalmar Branting.jpg",            # Branting förhandlade
-    "1908-amalthea":      "Anton Nilsson o Algot Rosberg.JPG",    # Anton Nilson + Rosberg
-    "1909-storstrejk":    "1909 storstrejk. Militärbevakning Centralstationen 1928.JPG",
-    "1912-abf":           "ABF-huset Stockholm 2013.jpg",         # ABF-huset
-    "1914-ww1":           "World War I montage.jpg",              # WWI montage
-    "1917-ryska-rev":     "RedArmyTroops.jpg",                    # Röda arméns trupper
-    "1918-finska-inb":    "Finnish Civil War 1918 montage.jpg",   # Finska inbördeskriget
-    "1919-rösträtt":      "Hjalmar Branting by Goodwin.jpg",      # Branting kämpade för rösträtt
-    "1919-8timmar":       "8 hours campaign 1919.jpg",            # 8-timmars kampanj
-    "1929-borskrasch":    "Crowd outside nyse.jpg",               # Wall Street 1929
-    "1931-adalen":        "Ådalen 31 monument.jpg",               # Ådalenmonumentet
-    # Epok 2
-    "1932-sap-makten":    "Per Albin Hansson.jpg",                # Per-Albin Hansson
-    "1938-saltsjobad":    "Grand Hotel Saltsjöbaden.jpg",         # Hotellet där avtalet slöts
-    "1939-ww2":           "World War II.jpg",                     # WWII
-    "1959-atp":           "Riksdag huset.jpg",                    # Svenska riksdagshuset
-    "1962-forskola":      "Swedish preschool.jpg",                # Förskola
-    "1966-offentliga":    "Swedish public sector workers.jpg",    # Offentliganställda
-    "1969-gruvstrejk":    "LKAB mines Kiruna.jpg",                # LKAB Kirunaminan
-    "1971-arbetstid":     "Factory workers Sweden.jpg",           # Fabriksarbetare
-    "1974-las-fml":       "Riksdagshuset Stockholm.jpg",          # Riksdagshuset
-    "1976-mbl":           "Swedish workplace.jpg",                # Arbetsplats
-    "1978-timbro":        "Timbro Stockholm.jpg",                 # Timbro
-    "1980-storlockout":   "Swedish labor conflict 1980.jpg",      # Storlockout
-    "1983-lontagarfonder": "Rudolf Meidner.jpg",                  # Rudolf Meidner
-    # Epok 3
-    "1986-palme":         "Olof Palme 1968.JPG",                  # Olof Palme (bekräftad)
-    "1989-berlinmuren":   "Berlin-Mauerfall-1-10-November-1989.jpg", # Berlinmuren faller
-    "2007-lex-laval":     "Vaxholm Laval.jpg",                    # Vaxholmbygget
-}
+# Filnamnsmönster som nästan alltid är ikoner/loggor/kartor/vapen — inte foton.
+SKIP_PATTERNS = [
+    "logo", "icon", "symbol", "flag_of", "ambox", "nuvola", "crystal",
+    "disambig", "edit-icon", "padlock", "question_book", "oojs",
+    "commons-logo", "wiktionary", "wikisource", "wikidata", "folder",
+    "merge-symbol", "portal", "stub", "pd-icon", "cc-by", "gnu-",
+    "loudspeaker", "sound-icon", "_map", "map_of", "locator", "wappen",
+    "coat_of_arms", "crest", "signature",
+]
+MIN_WIDTH = 200
+
+# ── Manuella overrides — används bara när automatiken väljer fel bild ─────
+# Format: event-id → Commons-filnamn (utan "File:"-prefix).
+MANUAL = {}
 
 # ── Alternativa engelska Wikipedia-artiklar för events med svag sv-wiki ───
 EN_WIKI = {
@@ -101,38 +87,131 @@ def commons_url(filename):
     fn = filename.replace(" ", "_")
     return f"https://commons.wikimedia.org/wiki/Special:FilePath/{urllib.parse.quote(fn)}"
 
-def wiki_image_api(lang, article):
-    """Hämtar tumbnailURL via Wikipedia MediaWiki-API."""
-    try:
-        r = requests.get(
-            f"https://{lang}.wikipedia.org/w/api.php",
-            params={"action": "query", "titles": article,
-                    "prop": "pageimages", "pithumbsize": 800, "format": "json"},
-            headers=HEADERS, timeout=12,
-        )
+def is_probably_icon(filename):
+    lower = filename.lower()
+    if lower.endswith(".svg") or lower.endswith(".gif"):
+        return True
+    return any(p in lower for p in SKIP_PATTERNS)
+
+def api_get(url, params, retries=3):
+    """GET med enkel backoff mot 429/5xx — MediaWiki-API:et är flaggigt
+    under skurar av förfrågningar, men brukar svara normalt efter en kort paus."""
+    wait = 2
+    for attempt in range(retries):
+        try:
+            r = requests.get(url, params=params, headers=HEADERS, timeout=12)
+        except Exception as e:
+            print(f"    nätverksfel: {e}")
+            return None
         if r.status_code == 200:
-            pages = r.json()["query"]["pages"]
-            for page in pages.values():
-                if "thumbnail" in page:
-                    return page["thumbnail"]["source"]
-    except Exception as e:
-        print(f"    {lang}-API error: {e}")
+            return r
+        if r.status_code in (429, 500, 502, 503) and attempt < retries - 1:
+            print(f"    HTTP {r.status_code} — väntar {wait}s och försöker igen")
+            time.sleep(wait)
+            wait *= 2
+            continue
+        print(f"    HTTP {r.status_code}")
+        return None
     return None
+
+def wiki_pageimage(lang, article):
+    """Wikipedias egen auto-valda 'sidbild', om den finns."""
+    r = api_get(
+        f"https://{lang}.wikipedia.org/w/api.php",
+        {"action": "query", "titles": article, "redirects": 1,
+         "prop": "pageimages", "pithumbsize": 800, "format": "json"},
+    )
+    if r is None:
+        return None
+    pages = r.json()["query"]["pages"]
+    for page in pages.values():
+        if "thumbnail" in page:
+            return page["thumbnail"]["source"]
+    return None
+
+def wiki_article_images(lang, article, limit=10):
+    """Bilder som faktiskt förekommer i artikeln, i nämnd ordning."""
+    r = api_get(
+        f"https://{lang}.wikipedia.org/w/api.php",
+        {"action": "query", "titles": article, "redirects": 1,
+         "prop": "images", "imlimit": 50, "format": "json"},
+    )
+    if r is None:
+        return []
+    pages = r.json()["query"]["pages"]
+    names = []
+    for page in pages.values():
+        for img in page.get("images", []):
+            name = img["title"].split(":", 1)[-1]
+            if not is_probably_icon(name):
+                names.append(name)
+    return names[:limit]
+
+def best_photo_url(filenames):
+    """Slår upp riktiga mått/mime för kandidaterna (via Commons imageinfo)
+    och returnerar URL:en för första som är ett tillräckligt stort foto."""
+    if not filenames:
+        return None
+    titles = "|".join(f"File:{f}" for f in filenames)
+    r = api_get(
+        "https://commons.wikimedia.org/w/api.php",
+        {"action": "query", "titles": titles,
+         "prop": "imageinfo", "iiprop": "url|size|mime", "format": "json"},
+    )
+    if r is not None:
+        pages = r.json()["query"]["pages"]
+        by_name = {}
+        for page in pages.values():
+            info = page.get("imageinfo")
+            if info:
+                key = page["title"].split(":", 1)[-1].replace(" ", "_")
+                by_name[key] = info[0]
+        for name in filenames:
+            info = by_name.get(name.replace(" ", "_"))
+            if not info:
+                continue
+            if info.get("mime") not in ("image/jpeg", "image/png"):
+                continue
+            if info.get("width", 0) < MIN_WIDTH:
+                continue
+            return info["url"]
+    return None
+
+def find_image(lang, article):
+    """Steg 2+3 för ett givet språk: pageimage, annars bästa artikelbild."""
+    url = wiki_pageimage(lang, article)
+    if url:
+        return url, "pageimages"
+    candidates = wiki_article_images(lang, article)
+    url = best_photo_url(candidates)
+    if url:
+        return url, "artikelbild"
+    return None, None
 
 def sv_article(wiki_url):
     if "sv.wikipedia.org/wiki/" in wiki_url:
-        return wiki_url.split("/wiki/")[-1]
+        # Wiki-URL:er i events.json är ofta procentkodade (Ådalen → %C3%85dalen).
+        # Måste avkodas innan de skickas som titles= — annars dubbelkodas de.
+        return urllib.parse.unquote(wiki_url.split("/wiki/")[-1])
     return None
 
 def save_webp(img_url, out_path, max_w=800):
     try:
-        r = requests.get(img_url, headers=HEADERS, timeout=20, allow_redirects=True)
-        if r.status_code != 200:
+        wait = 2
+        for attempt in range(3):
+            r = requests.get(img_url, headers=HEADERS, timeout=20, allow_redirects=True)
+            if r.status_code == 200:
+                break
+            if r.status_code in (429, 500, 502, 503) and attempt < 2:
+                print(f"    HTTP {r.status_code} — väntar {wait}s och försöker igen")
+                time.sleep(wait)
+                wait *= 2
+                continue
             print(f"    HTTP {r.status_code}")
             return False
         ct = r.headers.get("content-type", "")
         if "svg" in ct:
-            print("    SVG → hoppar")
+            print("    SVG -> hoppar")
             return False
         img = Image.open(io.BytesIO(r.content))
         if getattr(img, "format", "") == "SVG":
@@ -149,7 +228,7 @@ def save_webp(img_url, out_path, max_w=800):
             )
         img.save(out_path, "WEBP", quality=82)
         kb = os.path.getsize(out_path) // 1024
-        print(f"    ✓  {img.width}×{img.height}px  {kb} KB  →  {out_path.name}")
+        print(f"    OK  {img.width}x{img.height}px  {kb} KB  ->  {out_path.name}")
         return True
     except Exception as e:
         print(f"    fel: {e}")
@@ -170,7 +249,7 @@ for ev in events:
     if out.exists():
         if "image" not in ev:
             ev["image"] = f"images/{eid}.webp"
-        print(f"{eid}  →  redan klar")
+        print(f"{eid}  ->  redan klar")
         skip += 1
         continue
 
@@ -182,7 +261,7 @@ for ev in events:
         img_url = commons_url(MANUAL[eid])
         print(f"    MANUAL: {MANUAL[eid]}")
 
-    # 2. Sv.wikipedia pageimages-API
+    # 2+3. sv.wikipedia — pageimage, sedan artikelns egna bilder
     if not img_url:
         wiki_url = next(
             (l["url"] for l in ev.get("links", [])
@@ -191,25 +270,20 @@ for ev in events:
         )
         if wiki_url:
             article = sv_article(wiki_url)
-            url = wiki_image_api("sv", article)
+            url, method = find_image("sv", article)
             if url:
                 img_url = url
-                print(f"    sv-wiki: {url[:60]}…")
+                print(f"    sv-wiki ({method}): {url[:70]}...")
 
-    # 3. En.wikipedia pageimages-API
+    # 4. en.wikipedia — samma två steg
     if not img_url and eid in EN_WIKI:
-        url = wiki_image_api("en", EN_WIKI[eid])
+        url, method = find_image("en", EN_WIKI[eid])
         if url:
             img_url = url
-            print(f"    en-wiki: {url[:60]}…")
+            print(f"    en-wiki ({method}): {url[:70]}...")
 
     if not img_url:
         print("    ingen bild hittad")
-        fail += 1
-        continue
-
-    if img_url.lower().endswith(".svg") or "%2F.svg" in img_url.lower():
-        print("    SVG → hoppar")
         fail += 1
         continue
 

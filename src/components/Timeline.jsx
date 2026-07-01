@@ -18,7 +18,7 @@ const EPOCHS = [
   {
     id: 'forvaltande',
     title: 'Förvaltande',
-    years: '1985–2015',
+    years: '1985–2026',
   },
 ]
 

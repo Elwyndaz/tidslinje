@@ -50,7 +50,7 @@ Svenska. Inga hårdkodade strängar i koden — öppet för flerspråk senare.
 |------|-------|----|
 | `informera-och-agitera` | Informera och agitera | 1846–1931 |
 | `folkhemmet-och-valfardsstaten` | Folkhemmet och välfärdsstaten | 1932–1983 |
-| `forvaltande` | Förvaltande | 1985–2015 |
+| `forvaltande` | Förvaltande | 1985–2026 |
 
 ---
 

@@ -69,7 +69,8 @@
         "type": "wiki",
         "url": "https://sv.wikipedia.org/wiki/Svenska_tr%C3%A4arbetaref%C3%B6rbundet"
       }
-    ]
+    ],
+    "image": "images/1889-traarbetare.webp"
   },
   {
     "id": "1889-sap",
@@ -183,7 +184,8 @@
         "type": "wiki",
         "url": "https://sv.wikipedia.org/wiki/Svenskt_N%C3%A4ringsliv"
       }
-    ]
+    ],
+    "image": "images/1902-saf.webp"
   },
   {
     "id": "1906-december",
@@ -236,7 +238,8 @@
         "type": "podcast",
         "url": "https://shows.acast.com/historiepodden/episodes/564-amaltheadadet-och-storstrejken-1909"
       }
-    ]
+    ],
+    "image": "images/1908-amalthea.webp"
   },
   {
     "id": "1909-storstrejk",
@@ -262,7 +265,8 @@
         "type": "podcast",
         "url": "https://podcasts.apple.com/se/podcast/storstrejken-del-1-attack-och-motattack/id1665577095?i=1000702145216"
       }
-    ]
+    ],
+    "image": "images/1909-storstrejk.webp"
   },
   {
     "id": "1912-abf",
@@ -284,7 +288,8 @@
         "type": "wiki",
         "url": "https://sv.wikipedia.org/wiki/Arbetarnas_bildningsf%C3%B6rbund"
       }
-    ]
+    ],
+    "image": "images/1912-abf.webp"
   },
   {
     "id": "1914-ww1",
@@ -305,7 +310,8 @@
         "type": "wiki",
         "url": "https://sv.wikipedia.org/wiki/F%C3%B6rsta_v%C3%A4rldskriget"
       }
-    ]
+    ],
+    "image": "images/1914-ww1.webp"
   },
   {
     "id": "1915-joe-hill",
@@ -333,7 +339,8 @@
         "type": "podcast",
         "url": "https://www.sverigesradio.se/avsnitt/670328"
       }
-    ]
+    ],
+    "image": "images/1915-joe-hill.webp"
   },
   {
     "id": "1917-seskaro",
@@ -377,7 +384,8 @@
         "type": "wiki",
         "url": "https://sv.wikipedia.org/wiki/Ryska_revolutionen"
       }
-    ]
+    ],
+    "image": "images/1917-ryska-rev.webp"
   },
   {
     "id": "1918-finska-inb",
@@ -399,7 +407,8 @@
         "type": "wiki",
         "url": "https://sv.wikipedia.org/wiki/Finska_inb%C3%B6rdeskriget"
       }
-    ]
+    ],
+    "image": "images/1918-finska-inb.webp"
   },
   {
     "id": "1919-rösträtt",
@@ -522,7 +531,8 @@
         "type": "podcast",
         "url": "https://podcasts.apple.com/se/podcast/%C3%A5dalen-31-n%C3%A4r-milit%C3%A4ren-sk%C3%B6t-arbetare/id1665577095?i=1000653647085"
       }
-    ]
+    ],
+    "image": "images/1931-adalen.webp"
   },
   {
     "id": "1932-sap-makten",
@@ -545,7 +555,8 @@
         "type": "wiki",
         "url": "https://sv.wikipedia.org/wiki/Folkhemmet"
       }
-    ]
+    ],
+    "image": "images/1932-sap-makten.webp"
   },
   {
     "id": "1938-saltsjobad",
@@ -575,7 +586,8 @@
         "type": "podcast",
         "url": "https://poddtoppen.se/podcast/1665577095/vi-bygger-landet/saltsjobadsavtalet-en-historisk-kompromiss"
       }
-    ]
+    ],
+    "image": "images/1938-saltsjobad.webp"
   },
   {
     "id": "1939-ww2",
@@ -623,7 +635,8 @@
         "type": "podcast",
         "url": "https://shows.acast.com/historiepodden/episodes/historiepodden-14-norrskensflamman-brinner"
       }
-    ]
+    ],
+    "image": "images/1940-norrskensflamman.webp"
   },
   {
     "id": "1945-statare",
@@ -649,7 +662,8 @@
         "type": "podcast",
         "url": "https://shows.acast.com/historiepodden/episodes/605-statarna"
       }
-    ]
+    ],
+    "image": "images/1945-statare.webp"
   },
   {
     "id": "1951-3veckor",
@@ -735,7 +749,8 @@
         "type": "wiki",
         "url": "https://sv.wikipedia.org/wiki/F%C3%B6rskola"
       }
-    ]
+    ],
+    "image": "images/1962-forskola.webp"
   },
   {
     "id": "1963-4veckor",
@@ -818,7 +833,8 @@
         "type": "podcast",
         "url": "https://www.sverigesradio.se/avsnitt/den-vilda-gruvstrejken-i-kiruna-malmberget-norrbotten-1969-1970"
       }
-    ]
+    ],
+    "image": "images/1969-gruvstrejk.webp"
   },
   {
     "id": "1971-arbetstid",
@@ -1204,5 +1220,75 @@
     ],
     "persons": [],
     "links": []
+  },
+  {
+    "id": "2016-hamnkonflikten",
+    "year": 2016,
+    "title": "Hamnkonflikten i Göteborg",
+    "epoch": "forvaltande",
+    "country": "sverige",
+    "size": "large",
+    "short": "Hamnarbetarförbundet i öppen konflikt med APM Terminals — en av tidens mest uppmärksammade arbetsmarknadskonflikter.",
+    "long": "Hamnarbetarförbundets avdelning 4 — \"Hamnfyran\" — i Göteborgs containerhamn hamnar i öppen konflikt med arbetsgivaren APM Terminals. Förbundet har inget eget kollektivavtal på arbetsplatsen men vill ändå påverka villkoren, och strejker, blockader och lockouter avlöser varandra 2016–2017. Bara första halvåret 2017 går över 2 400 arbetsdagar förlorade. Konflikten blir riksbekant och sätter fart på en politisk process om vilka fackförbund som ska ha rätt att vidta stridsåtgärder på en arbetsplats. Den 5 mars 2019 tecknar Hamnarbetarförbundet för första gången i sin historia ett kollektivavtal, och konflikten läggs ned.",
+    "tags": [
+      "strejk",
+      "konflikt",
+      "hamn"
+    ],
+    "persons": [],
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/Svenska_hamnarbetarf%C3%B6rbundet"
+      }
+    ]
+  },
+  {
+    "id": "2019-strejkratt",
+    "year": 2019,
+    "title": "Strejkrätten begränsas",
+    "epoch": "forvaltande",
+    "country": "sverige",
+    "size": "large",
+    "short": "Riksdagen inskränker strejkrätten — fredsplikt vid kollektivavtal gäller nu alla fack på arbetsplatsen.",
+    "long": "Delvis som en reaktion på hamnkonflikten i Göteborg kommer LO, TCO och Saco 2018 överens med Svenskt Näringsliv och Transportföretagen om ett förslag till inskränkt strejkrätt. Riksdagen röstar igenom lagändringen i juni 2019 och den träder i kraft den 1 augusti samma år. Fredsplikten vid kollektivavtal utökas till att omfatta alla fackförbund på arbetsplatsen, inte bara det förbund som tecknat avtalet — vilket gör det svårare för förbund utan eget avtal att vidta stridsåtgärder. Det är den mest omfattande inskränkningen av strejkrätten sedan 1928 års lagstiftning.",
+    "tags": [
+      "lag",
+      "strejk",
+      "konflikt"
+    ],
+    "persons": [],
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://www.transportarbetaren.se/tva-ar-som-andrade-strejkratten/"
+      }
+    ]
+  },
+  {
+    "id": "2023-tesla",
+    "year": 2023,
+    "title": "Teslastrejken",
+    "epoch": "forvaltande",
+    "country": "sverige",
+    "size": "large",
+    "short": "IF Metall strejkar mot Tesla för kollektivavtal — en av de längsta konflikterna i svensk historia.",
+    "long": "IF Metall inleder strejk mot Teslas svenska bolag TM Sweden den 27 oktober 2023, sedan företaget vägrat teckna kollektivavtal. Konflikten trappas snabbt upp med sympatiåtgärder från en rad andra fackförbund — Transport blockerar Teslabilar i hamnarna, Seko stoppar postleveranser av nummerplåtar, Fastighets blockerar sophämtning och Elektrikerna blockerar laddstolpar. Trots flera års stridsåtgärder vägrar Tesla att teckna avtal. Konflikten blir en av de längsta i svensk arbetsmarknadshistoria och jämförs ofta med tiden före Saltsjöbadsavtalet 1938.",
+    "tags": [
+      "strejk",
+      "kollektivavtal",
+      "konflikt"
+    ],
+    "persons": [],
+    "links": [
+      {
+        "type": "wiki",
+        "url": "https://sv.wikipedia.org/wiki/TM_Sweden"
+      },
+      {
+        "type": "podcast",
+        "url": "https://da.se/2025/06/podd-teslastrejken-del-ett-tesla-var-min-drom/"
+      }
+    ]
   }
 ]
