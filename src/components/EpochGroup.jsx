@@ -21,7 +21,7 @@ export default function EpochGroup({ epoch, events, onOpen }) {
           left-[0.75rem] = halva bredden på dot-kolumnen (1.5rem) på mobil.
           md:left-1/2     = exakt mitten av containern på desktop.
         */}
-        <div className="absolute left-[0.75rem] md:left-1/2 top-0 bottom-0 w-px bg-gray-200 -translate-x-1/2" />
+        <div className="absolute left-[0.75rem] md:left-1/2 top-0 bottom-0 w-px bg-ink/25 -translate-x-1/2" />
 
         {events.map((event, i) => {
           const goLeft = i % 2 === 0
